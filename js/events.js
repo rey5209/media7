@@ -11,10 +11,12 @@ $(document).ready(function() {
 
   var lokal_name = urlParams.lokal[0]
   var lokal_page_id = urlParams.pageId[0] 
+  var lokal_media_id = urlParams.mediaId[0] 
   var link = '';
 
   console.log(lokal_name)
   console.log(lokal_page_id)
+  console.log(lokal_media_id)
 
   document.title = lokal_name;
 
@@ -26,17 +28,31 @@ $(document).ready(function() {
       return response.json();
     })
     .then(function(data) { 
+
+      // (data.allow_popup_option? data. )
       
       different_link = data.jsonData[lokal_page_id-1].different_link_per_data;
       different_img = data.jsonData[lokal_page_id-1].different_img_per_data;
-      $redirect_txt = data.jsonData[lokal_page_id-1].redirect_text;
+      $redirect_txt = ( data.jsonData[lokal_page_id-1].allow_popup_option ? data.jsonData[lokal_page_id-1].popup_option[lokal_media_id-1].redirect_text : data.jsonData[lokal_page_id-1].redirect_text   );
+
+      // console.log($redirect_txt )
+      // mmedia id differnt : redirect_text , link
+
+      
 
       // SET LINK from json
       
       if(!different_link){ 
-        link = data.jsonData[lokal_page_id-1].link;
-        $('.main-event').append('<a  id="hidden-link" class="hidden-link" href="'+link+'" target="_blank"></a>'); 
-      }
+
+        if(data.jsonData[lokal_page_id-1].allow_popup_option){ //if allow popup option, else back to default
+
+          link = data.jsonData[lokal_page_id-1].popup_option[lokal_media_id-1].link;
+          $('.main-event').append('<a  id="hidden-link" class="hidden-link" href="'+link+'" target="_blank"></a>'); 
+        }else{ 
+          link = data.jsonData[lokal_page_id-1].link;
+          $('.main-event').append('<a  id="hidden-link" class="hidden-link" href="'+link+'" target="_blank"></a>'); 
+        }
+      } 
 
       if(!different_img){ 
         var image = data.jsonData[lokal_page_id-1].image;
