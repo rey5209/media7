@@ -314,7 +314,7 @@ p {
        /*   background-image: url('../img/cfo-today.jpg');   */
         background-position: bottom;
         background-repeat: no-repeat;
-        background-size: 100% ;   
+        background-size: contain;   
         position: relative;
         min-height:150px;
         max-height:500px;
