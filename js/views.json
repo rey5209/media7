@@ -2,7 +2,7 @@
   "jsonData" : [
     {
     "banner" : "CFO_Updates.gif",
-    "tittle" : "UPDATES | Season 2 | July 17, 2022 ",
+    "tittle" : "UPDATES | Season 2 | July 24, 2022 ",
     "subTittle" : "",
     "subTittleColor" : "red",
     "subTittleType" : "text",
@@ -21,7 +21,7 @@
         "subTittleColor" : "red",
         "subTittleType" : "icon",
         "redirect_text":"Sending view from youtube",
-        "link" : "https://www.youtube.com/watch?v=XGNZyOtnJD0"
+        "link" : "https://www.youtube.com/watch?v=FbarYsVk5Uo"
       },
       { 
         "page" : "watch", 
@@ -30,7 +30,7 @@
         "subTittleColor" : "#1c4ee3",
         "subTittleType" : "icon",
         "redirect_text":"Sending view from facebook",
-        "link" : "https://www.facebook.com/events/1256843971386306/"
+        "link" : "https://www.facebook.com/events/281827107497550/"
       }
 
     ],
@@ -40,16 +40,15 @@
     "first_header_title":"Featured Districts",
     "viewData" : [
        
-      {"lokal":"Agusan Del Norte",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
-      {"lokal":"Tarlac City, Tarlac",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
-      {"lokal":"Taiwan",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
-      {"lokal":"Malaysia",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
+      {"lokal":"Australia East",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
+      {"lokal":"Calgary",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
+      {"lokal":"Palawan North",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
       
   
       
       {"lokal":" ",         "divider":true , "divider_title":"CFO Vision", "color":"#42d4f5" , "bg":"#232129"},
         
-      {"lokal":"Southern Africa",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0}
+      {"lokal":"Southern Ontario",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0}
       
       ] 
     } 
