@@ -10,12 +10,13 @@ $(document).ready(function() {
   var urlParams = parseURLParams(location.search);
   var share_type ='';
   
+  console.log(urlParams)
   // if url params is empty
-  if(urlParams != undefined){ 
+  if(urlParams != undefined && urlParams.hasOwnProperty('share')){ 
     share_type = urlParams.share[0]
     console.log(share_type)
   }
-
+  
   function parseURLParams(url) {
       var queryStart = url.indexOf("?") + 1,
           queryEnd   = url.indexOf("#") + 1 || url.length + 1,
