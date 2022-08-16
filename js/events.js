@@ -33,7 +33,28 @@ $(document).ready(function() {
       
       different_link = data.jsonData[lokal_page_id-1].different_link_per_data;
       different_img = data.jsonData[lokal_page_id-1].different_img_per_data;
-      $redirect_txt = ( data.jsonData[lokal_page_id-1].allow_popup_option ? data.jsonData[lokal_page_id-1].popup_option[lokal_media_id-1].redirect_text : data.jsonData[lokal_page_id-1].redirect_text   );
+      var gtag = ( data.jsonData[lokal_page_id-1].allow_popup_option ? data.jsonData[lokal_page_id-1].popup_option[lokal_media_id-1].gtag_id : data.jsonData[lokal_page_id-1].single_gtag_id   );
+
+      var arrLocalData = data.jsonData[lokal_page_id-1].viewData
+      var localTitleValidation = localValiation(lokal_name)
+
+      // var gtag ="https://www.googletagmanager.com/gtag/js?id=G-0BQ9DP4YT3"
+      // console.log(localTitleValidation)
+
+      if(localTitleValidation.length == 0)
+        document.location='index.html'
+      else{ 
+        $('html').append('<script async src="https://www.googletagmanager.com/gtag/js?id='+gtag+'" type="text/javascript"></script>')
+        document.title = lokal_name;  
+      }
+      
+      function localValiation(lokal_name) {
+        return arrLocalData.filter(
+            function(arrLocalData){ return arrLocalData.lokal == lokal_name }
+        );
+      }
+
+      // End of validation
 
       // console.log($redirect_txt )
       // mmedia id differnt : redirect_text , link
