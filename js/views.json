@@ -2,7 +2,7 @@
   "jsonData" : [
     {
     "banner" : "CFO_Updates.gif",
-    "tittle" : "UPDATES | Season 2 | August 28, 2022 ",
+    "tittle" : "UPDATES | Season 2 | September 4, 2022 ",
     "subTittle" : "",
     "subTittleColor" : "red",
     "subTittleType" : "text",
@@ -23,7 +23,7 @@
         "subTittleColor" : "red",
         "subTittleType" : "icon",
         "redirect_text":"Sending view from youtube",
-        "link" : "https://www.youtube.com/watch?v=c5StbZAtdtY",
+        "link" : "https://www.youtube.com/watch?v=xWq2qEiTGNI",
         "gtag":"https://www.googletagmanager.com/gtag/js?id=G-F5L1BDXPZJ",
         "gtag_id" :"G-F5L1BDXPZJ"  
       },
@@ -34,7 +34,7 @@
         "subTittleColor" : "#1c4ee3",
         "subTittleType" : "icon",
         "redirect_text":"Sending view from facebook",
-        "link" : "https://fb.me/e/1JagbmsG5",
+        "link" : "https://www.facebook.com/events/2543679602461004/",
         "gtag":"https://www.googletagmanager.com/gtag/js?id=G-JZXEWLBT33",
         "gtag_id" :"G-JZXEWLBT33"  
       }
@@ -46,16 +46,15 @@
     "first_header_title":"Featured Districts",
     "viewData" : [
        
-      {"lokal":"Davao City",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
-      {"lokal":"Virginia",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
-      {"lokal":"Northern Midwest",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
-      {"lokal":"Zamboanga City",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},    
+      {"lokal":"Negros Del Norte",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
+      {"lokal":"Isabela South",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
+      {"lokal":"Malaysia",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},    
       
   
       
-      {"lokal":" ",         "divider":false , "divider_title":"CFO Vision", "color":"#42d4f5" , "bg":"#232129"},
+      {"lokal":" ",         "divider":true , "divider_title":"INCinema Awards", "color":"#42d4f5" , "bg":"#232129"},
         
-      {"lokal":"",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0}
+      {"lokal":"Region 3A",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0}
       
       ] 
     } 
