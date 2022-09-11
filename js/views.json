@@ -2,7 +2,7 @@
   "jsonData" : [
     {
     "banner" : "CFO_Updates.gif",
-    "tittle" : "UPDATES | Season 2 | September 4, 2022 ",
+    "tittle" : "UPDATES | Season 2 | September 11, 2022 ",
     "subTittle" : "",
     "subTittleColor" : "red",
     "subTittleType" : "text",
@@ -23,7 +23,7 @@
         "subTittleColor" : "red",
         "subTittleType" : "icon",
         "redirect_text":"Sending view from youtube",
-        "link" : "https://www.youtube.com/watch?v=xWq2qEiTGNI",
+        "link" : "https://www.youtube.com/watch?v=K4Pg-EajZ5I",
         "gtag":"https://www.googletagmanager.com/gtag/js?id=G-F5L1BDXPZJ",
         "gtag_id" :"G-F5L1BDXPZJ"  
       },
@@ -34,7 +34,7 @@
         "subTittleColor" : "#1c4ee3",
         "subTittleType" : "icon",
         "redirect_text":"Sending view from facebook",
-        "link" : "https://www.facebook.com/events/2543679602461004/",
+        "link" : "https://www.facebook.com/events/935289064097144/",
         "gtag":"https://www.googletagmanager.com/gtag/js?id=G-JZXEWLBT33",
         "gtag_id" :"G-JZXEWLBT33"  
       }
@@ -46,15 +46,16 @@
     "first_header_title":"Featured Districts",
     "viewData" : [
        
-      {"lokal":"Negros Del Norte",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
-      {"lokal":"Isabela South",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
-      {"lokal":"Malaysia",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},    
+      {"lokal":"San Pablo City, Laguna",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
+      {"lokal":"San Carlos City, Pangasinan",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
+      {"lokal":"Southern Ontario",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
+      {"lokal":"Macau",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
       
   
       
       {"lokal":" ",         "divider":true , "divider_title":"INCinema Awards", "color":"#42d4f5" , "bg":"#232129"},
         
-      {"lokal":"Region 3A",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0}
+      {"lokal":"Region 4A",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0}
       
       ] 
     } 
