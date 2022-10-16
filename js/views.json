@@ -2,7 +2,7 @@
   "jsonData" : [
     {
     "banner" : "CFO_Updates.gif",
-    "tittle" : "UPDATES | Season 2 | October 9, 2022 ",
+    "tittle" : "UPDATES | Season 2 | October 16, 2022 ",
     "subTittle" : "",
     "subTittleColor" : "red",
     "subTittleType" : "text",
@@ -23,7 +23,7 @@
         "subTittleColor" : "red",
         "subTittleType" : "icon",
         "redirect_text":"Sending view from youtube",
-        "link" : "https://www.youtube.com/watch?v=hEjL1_8_brs",
+        "link" : "https://www.youtube.com/watch?v=_ICUgd1bdV0",
         "gtag":"https://www.googletagmanager.com/gtag/js?id=G-F5L1BDXPZJ",
         "gtag_id" :"G-F5L1BDXPZJ"  
       },
@@ -34,7 +34,7 @@
         "subTittleColor" : "#1c4ee3",
         "subTittleType" : "icon",
         "redirect_text":"Sending view from facebook",
-        "link" : "https://www.facebook.com/events/1123454215224399/",
+        "link" : "https://www.facebook.com/events/555676482985851/",
         "gtag":"https://www.googletagmanager.com/gtag/js?id=G-JZXEWLBT33",
         "gtag_id" :"G-JZXEWLBT33"  
       }
@@ -46,10 +46,10 @@
     "first_header_title":"Featured Districts",
     "viewData" : [
        
-      {"lokal":"Agusan Del Norte",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
-      {"lokal":"Sta. Cruz, Laguna",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
-      {"lokal":"Isabela West",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
-        {"lokal":"Northeast California",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
+      {"lokal":"Italy North",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
+      {"lokal":"Iloilo North",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
+      {"lokal":"Sultan Kudarat",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
+        {"lokal":"Laoag City, Ilocos Norte",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
       
   
       
