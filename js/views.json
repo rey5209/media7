@@ -43,7 +43,7 @@
 
     "redirect_text":"Sending view from facebook",
     "first_header_color":"#fff",
-    "first_header_title":"Featured Districts",
+    "first_header_title":"Special Episode",
     "viewData" : [
        
       {"lokal":"Care for Humanity",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
