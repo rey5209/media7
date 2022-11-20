@@ -1,12 +1,13 @@
 {
   "jsonData" : [
     {
-    "banner" : "CFO_Updates.gif",
-    "tittle" : "CFO Updates Special Episode | Season 2 | October 30, 2022 ",
+    "banner" : "CFO_UPDATES.gif",
+    "tittle" : "UPDATES | November 20, 2022 ",
     "subTittle" : "",
     "subTittleColor" : "red",
     "subTittleType" : "text",
     "image" : "INC-Central-Temple-2.jpg",
+    "embed_link" : false, 
     "link" : "https://www.youtube.com", 
     "different_link_per_data" : false,
     "different_img_per_data" : true,
@@ -23,7 +24,8 @@
         "subTittleColor" : "red",
         "subTittleType" : "icon",
         "redirect_text":"Sending view from youtube",
-        "link" : "https://www.youtube.com/watch?v=ze6lloq75cI",
+        "embed_link" : true,
+        "link" : "yrJ8PGvIWn0",
         "gtag":"https://www.googletagmanager.com/gtag/js?id=G-F5L1BDXPZJ",
         "gtag_id" :"G-F5L1BDXPZJ"  
       },
@@ -34,7 +36,8 @@
         "subTittleColor" : "#1c4ee3",
         "subTittleType" : "icon",
         "redirect_text":"Sending view from facebook",
-        "link" : "https://www.facebook.com/events/1314530075967150/",
+        "embed_link" : false,
+        "link" : "https://www.facebook.com/events/834668271013985/",
         "gtag":"https://www.googletagmanager.com/gtag/js?id=G-JZXEWLBT33",
         "gtag_id" :"G-JZXEWLBT33"  
       }
@@ -43,17 +46,15 @@
 
     "redirect_text":"Sending view from facebook",
     "first_header_color":"#fff",
-    "first_header_title":"Special Episode",
+    "first_header_title":"Featured Districts",
     "viewData" : [
        
-      {"lokal":"Care for Humanity",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
-      {"lokal":"Blood Donation Activity",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
-      {"lokal":"Community Services",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
-        {"lokal":"INCinema and CFO Vision",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
+      {"lokal":"Urdaneta City, Pangasinan",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
+      {"lokal":"Quezon City",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
+        {"lokal":"Northwest California",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
+        {"lokal":"Northern Europe",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
       
-  
-      
-      {"lokal":" ",         "divider":false , "divider_title":"INCinema Awards", "color":"#42d4f5" , "bg":"#232129"},
+      {"lokal":"",         "divider":false , "divider_title":"CFO Vision", "color":"#42d4f5" , "bg":"#232129"},
         
       {"lokal":"",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0}
       

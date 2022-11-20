@@ -155,7 +155,12 @@ a:link { text-decoration: none;
 
 
   
-
+ /* @media (min-width: 576px){
+ .modal-dialog {
+  max-width: 100% !important;
+     margin: 1.75rem auto;
+ }
+} */
 
 @keyframes clockwise {
   0% {
@@ -272,3 +277,5 @@ a:link { text-decoration: none;
     right: 1px;    
   }
 }
+
+
