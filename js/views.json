@@ -2,7 +2,7 @@
   "jsonData" : [
     {
     "banner" : "CFO_Updates.gif",
-    "tittle" : "UPDATES | December 25, 2022 ",
+    "tittle" : "UPDATES | January 8, 2023 ",
     "subTittle" : "",
     "subTittleColor" : "red",
     "subTittleType" : "text",
@@ -49,14 +49,14 @@
     "first_header_title":"Featured Districts",
     "viewData" : [
        
-      {"lokal":"Mountain States",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
-      {"lokal":"San Jose, Mindoro Occidental",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
-        {"lokal":"Bataan",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
-        {"lokal":"Metro Manila East",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
+      {"lokal":"Washington State",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
+      {"lokal":"Pampanga East",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
+        {"lokal":"Qatar",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
+        {"lokal":"Makati",                           "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0},
       
-      {"lokal":"",         "divider":false , "divider_title":"CFO Vision", "color":"#42d4f5" , "bg":"#232129"},
+      {"lokal":"",         "divider":true , "divider_title":"Highlights", "color":"#42d4f5" , "bg":"#232129"},
         
-      {"lokal":"",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0}
+      {"lokal":"National Unity Games",             "duration":"25:0",  "link":"", "image":"22.jpg",        "views":  0}
       
       ] 
     } 
